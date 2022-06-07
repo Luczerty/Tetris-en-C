@@ -5,7 +5,7 @@
 #define ligne 10
 #define colonne 10
 #define loose -500		// if this is  a loose condition we will use this value
-#include "headers.h"
+
 typedef struct
 {
   int x;
