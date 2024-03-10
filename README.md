@@ -15,21 +15,15 @@ Welcome to Tetris, a classic game brought to you with an easy installation proce
      ```
    - Replace "tetris.zip" with the actual name of the downloaded file.
 
-### 3. Build the Project:
-   - Once the package is unzipped, navigate into the Tetris project directory.
-   - Run the following command to initiate the build process:
-     ```
-     make
-     ```
 
-### 4. Execute the Game:
+### 3. Execute the Game:
    - After the build process completes successfully, launch the game by entering:
      ```
      ./exec
      ```
    - Enjoy the Tetris experience!
 
-### 5. Gameplay:
+### 4. Gameplay:
    - You have 10 seconds to choose the orientation and the column for placing your piece.
    - Use the leftmost cube of the piece as a reference point for placement.
 
