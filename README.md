@@ -19,7 +19,7 @@ Welcome to Tetris, a classic game brought to you with an easy installation proce
    - Navigate into the Tetris project directory.
    - Run the following command to initiate the build process using GCC:
      ```bash
-     gcc -o exec tetris.c
+     gcc -o exec main.c
      ```
 
 ### 4. Execute the Game:
