@@ -10,20 +10,26 @@ Welcome to Tetris, a classic game brought to you with an easy installation proce
 
 ### 2. Unzip the Package:
    - Execute the following command to unzip the package:
-     ```
+     ```bash
      unzip tetris.zip
      ```
    - Replace "tetris.zip" with the actual name of the downloaded file.
 
-
-### 3. Execute the Game:
-   - After the build process completes successfully, launch the game by entering:
+### 3. Build the Project:
+   - Navigate into the Tetris project directory.
+   - Run the following command to initiate the build process using GCC:
+     ```bash
+     gcc -o exec tetris.c
      ```
+
+### 4. Execute the Game:
+   - After the build process completes successfully, launch the game by entering:
+     ```bash
      ./exec
      ```
    - Enjoy the Tetris experience!
 
-### 4. Gameplay:
+### 5. Gameplay:
    - You have 10 seconds to choose the orientation and the column for placing your piece.
    - Use the leftmost cube of the piece as a reference point for placement.
 
